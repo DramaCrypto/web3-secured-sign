@@ -1,0 +1,43 @@
+:root {
+  --black-color-100: #1b1b1b;
+  --black-color-200: #0e0e0e;
+  --black-color-400: #080808;
+  --black-color-800: #000;
+  --yellow-color-400: #fec418;
+  --purple-color-200: #755da7;
+  --light-white-color: #aaa;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--black-color-400);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.react-multi-carousel-list {
+  padding-top: 50px;
+}
+
+.popular-games-carousel-list {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel-item {
+  padding-right: .25px;
+}
+
+img.rounded-img {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 375px) {
+  .popular-games-carousel-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "game-hub-backend",
+  "version": "1.0.0",
+  "description": "GameHub Backend Rest Api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server.js localhost 3081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peyote-org/game-hub-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peyote-org/game-hub-backend/issues"
+  },
+  "homepage": "https://github.com/peyote-org/game-hub-backend#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^5.7.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.10",
+    "moralis": "^1.8.0",
+    "path": "^0.12.7",
+    "pine": "^1.1.1",
+    "web3": "^1.7.5",
+    "web3-utils": "^1.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
